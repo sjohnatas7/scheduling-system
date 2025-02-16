@@ -1,0 +1,273 @@
+2025-02-12 15:41:33,519 DEBUG cd nexforce && python3 -m venv env
+2025-02-12 15:41:35,572 DEBUG cd nexforce && /home/johnatas/nexforce/env/bin/python -m pip install --quiet --upgrade pip
+2025-02-12 15:41:36,757 DEBUG cd nexforce && /home/johnatas/nexforce/env/bin/python -m pip install --quiet wheel
+2025-02-12 15:41:37,242 LOG Getting frappe
+2025-02-12 15:41:37,242 DEBUG cd nexforce/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2025-02-12 15:41:40,342 LOG Installing frappe
+2025-02-12 15:41:40,342 DEBUG cd /home/johnatas/nexforce && /home/johnatas/nexforce/env/bin/python -m pip install --quiet --upgrade -e /home/johnatas/nexforce/apps/frappe 
+2025-02-12 15:42:00,720 DEBUG cd /home/johnatas/nexforce/apps/frappe && yarn install --check-files
+2025-02-12 15:42:29,517 WARNING restart failed: Couldn't find supervisorctl in PATH
+2025-02-12 15:42:29,518 DEBUG cd nexforce && bench build
+2025-02-12 15:42:29,611 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench build
+2025-02-12 15:42:43,343 LOG setting up backups
+2025-02-12 15:42:43,355 LOG backups were set up
+2025-02-12 15:42:43,355 INFO Bench nexforce initialized
+2025-02-12 15:45:57,314 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --version
+2025-02-12 15:46:47,630 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench start
+2025-02-12 15:46:47,787 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench schedule
+2025-02-12 15:46:47,787 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench worker
+2025-02-12 15:46:47,804 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench watch
+2025-02-12 15:46:47,806 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench serve --port 8000
+2025-02-12 15:48:03,014 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench start
+2025-02-12 15:48:03,161 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench schedule
+2025-02-12 15:48:03,161 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench worker
+2025-02-12 15:48:03,163 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench watch
+2025-02-12 15:48:03,165 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench serve --port 8000
+2025-02-12 15:49:39,195 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench new-app
+2025-02-12 15:49:39,200 WARNING /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench new-app executed with exit code 2
+2025-02-12 15:49:45,064 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench new-app scheduling_system
+2025-02-12 15:49:45,067 LOG creating new app scheduling_system
+2025-02-12 15:50:31,158 LOG Installing scheduling_system
+2025-02-12 15:50:31,159 DEBUG cd /home/johnatas/nexforce && /home/johnatas/nexforce/env/bin/python -m pip install --quiet --upgrade -e /home/johnatas/nexforce/apps/scheduling_system 
+2025-02-12 15:50:33,699 DEBUG bench build --app scheduling_system
+2025-02-12 15:50:33,779 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench build --app scheduling_system
+2025-02-12 15:50:34,816 WARNING restart failed: Couldn't find supervisorctl in PATH
+2025-02-12 15:52:20,237 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench set-config -g developer_mode true
+2025-02-12 15:53:05,319 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench start
+2025-02-12 15:53:05,467 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench watch
+2025-02-12 15:53:05,467 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench worker
+2025-02-12 15:53:05,468 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench schedule
+2025-02-12 15:53:05,468 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench serve --port 8000
+2025-02-12 15:56:59,822 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench site list
+2025-02-12 15:57:05,086 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench site list
+2025-02-12 15:58:04,660 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site list-apps
+2025-02-12 15:58:08,143 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site
+2025-02-12 15:58:40,661 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site apps
+2025-02-12 16:00:34,939 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench new-site scheduling_system.localhost
+2025-02-12 16:00:43,293 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench new-site scheduling_system.localhost
+2025-02-12 16:00:48,367 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench new-site scheduling_system.localhost --force
+2025-02-12 16:04:40,952 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost install-app scheduling_system
+2025-02-12 16:05:04,617 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost list-apps
+2025-02-12 19:08:37,542 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --module scheduling_system.scheduling_system.tests.test_appointment
+2025-02-12 19:08:49,019 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost set-config allow_tests true
+2025-02-12 19:08:52,182 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --module scheduling_system.scheduling_system.tests.test_appointment
+2025-02-12 19:10:49,220 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests
+2025-02-12 19:11:09,743 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests
+2025-02-12 19:13:10,535 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests
+2025-02-12 19:13:53,119 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests
+2025-02-12 19:17:09,667 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench new-site commands-site-O4PN2QK.test --admin-password None --db-root-username None --db-root-password None --db-type mariadb
+2025-02-12 19:17:10,525 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost add-user test@gmail.com --first-name test --last-name test --password 123 --user-type System User --add-role Accounts User --add-role Sales User
+2025-02-12 19:17:17,603 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost backup --with-files --compress
+2025-02-12 19:17:20,288 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost set-config backup {"excludes": ["Activity Log", "Access Log", "Error Log"]} --parse
+2025-02-12 19:17:21,228 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost backup --verbose
+2025-02-12 19:17:24,037 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost backup --exclude Activity Log,Access Log,Error Log
+2025-02-12 19:17:26,587 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost backup
+2025-02-12 19:17:29,192 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost restore ./scheduling_system.localhost/private/backups/20250212_191718-scheduling_system_localhost-database.sql
+2025-02-12 19:30:12,895 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench start
+2025-02-12 19:30:13,420 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench worker
+2025-02-12 19:30:13,429 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench serve --port 8000
+2025-02-12 19:30:13,448 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench schedule
+2025-02-12 19:30:13,458 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench watch
+2025-02-12 19:53:24,177 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench start
+2025-02-12 19:53:24,564 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench worker
+2025-02-12 19:53:24,565 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench serve --port 8000
+2025-02-12 19:53:24,571 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench schedule
+2025-02-12 19:53:24,576 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench watch
+2025-02-12 21:01:14,863 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench console
+2025-02-12 21:01:20,738 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench console
+2025-02-12 21:01:29,131 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench console --site scheduling_system
+2025-02-12 21:01:35,080 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench console --site scheduling_system.localhost
+2025-02-12 21:01:59,043 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench console --site scheduling_system.localhost
+2025-02-12 21:02:18,096 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench console scheduling_system.localhost
+2025-02-12 21:02:25,633 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench console --help
+2025-02-12 21:02:33,899 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench console
+2025-02-12 21:02:45,788 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench console --site scheduling_system.localhost
+2025-02-12 21:03:11,191 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost console
+2025-02-12 21:11:08,572 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost add-page appointments_dashboard
+2025-02-12 21:11:15,742 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost add_page appointments_dashboard
+2025-02-12 21:11:21,080 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost add-page appointments_dashboard
+2025-02-13 00:00:01,615 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --verbose --site all backup
+2025-02-13 00:55:19,436 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench start
+2025-02-13 00:55:19,608 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench schedule
+2025-02-13 00:55:19,608 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench watch
+2025-02-13 00:55:19,611 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench serve --port 8000
+2025-02-13 00:55:19,645 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench worker
+2025-02-13 00:56:15,045 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench start
+2025-02-13 00:56:15,191 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench worker
+2025-02-13 00:56:15,192 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench serve --port 8000
+2025-02-13 00:56:15,193 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench schedule
+2025-02-13 00:56:15,197 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench watch
+2025-02-13 01:02:59,724 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling.local add-page appointments_dashboard
+2025-02-13 01:03:05,763 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling.local add- appointments_dashboard
+2025-02-13 01:03:11,209 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling.local --help
+2025-02-13 01:17:24,878 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system run-tests --doctype Appointment
+2025-02-13 01:17:35,905 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 01:20:47,767 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 01:21:01,616 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 01:21:19,389 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 01:29:18,868 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 14:47:18,527 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench start
+2025-02-13 14:47:31,373 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench start
+2025-02-13 14:50:44,946 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --docType Appointment
+2025-02-13 14:50:51,172 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 14:55:16,095 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 14:56:32,979 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 14:58:21,134 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:01:33,463 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:01:45,558 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --docType Appointment
+2025-02-13 15:01:49,864 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:03:22,491 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:03:34,313 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:05:15,612 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:06:44,794 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:07:48,182 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:15:47,936 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:19:33,150 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:21:33,548 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:22:47,838 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:28:39,738 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:30:18,754 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:33:10,720 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:34:35,450 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:36:01,089 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:36:15,389 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:36:50,218 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:37:22,447 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:39:07,200 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:41:42,442 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:42:33,400 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:48:04,718 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:48:13,757 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:48:29,833 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:48:56,436 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:49:01,965 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:49:15,983 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:50:18,918 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:52:58,284 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:53:20,067 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:53:34,107 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:56:06,160 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:58:12,720 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:58:23,506 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:58:42,123 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:58:50,893 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:59:30,872 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 15:59:55,470 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:00:28,049 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:01:25,592 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:01:37,992 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:01:42,829 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:01:54,378 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:02:17,958 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:02:44,439 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:03:35,450 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:03:44,909 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:03:56,077 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:04:34,990 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:04:43,196 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:06:32,660 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment --test test_create_appointment
+2025-02-13 16:07:36,654 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment --test test_create_appointment
+2025-02-13 16:08:54,400 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment --test test_create_appointment
+2025-02-13 16:10:26,565 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment --test test_create_appointment
+2025-02-13 16:10:36,581 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment --test test_create_appointment
+2025-02-13 16:11:47,411 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment --test test_create_appointment
+2025-02-13 16:11:53,493 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:13:17,802 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:15:06,460 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:15:28,933 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:15:47,588 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:17:55,346 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:20:59,716 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:23:28,270 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:26:52,652 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:27:11,406 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:27:48,613 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:30:27,906 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:32:15,420 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:33:04,968 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:36:34,828 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:37:27,183 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment --test test_calendar_events
+2025-02-13 16:38:14,764 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment --test test_calendar_events
+2025-02-13 16:42:18,067 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:42:49,689 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:43:22,993 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:43:47,366 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:44:52,660 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:47:14,873 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:47:23,655 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:49:51,896 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:50:10,905 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:51:34,384 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:51:54,909 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:53:41,444 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 16:54:18,264 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 17:00:28,499 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 17:01:26,375 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench stop
+2025-02-13 17:01:29,497 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --help
+2025-02-13 17:01:51,204 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench restart
+2025-02-13 17:01:51,300 WARNING restart failed: Couldn't find supervisorctl in PATH
+2025-02-13 17:04:05,702 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench start
+2025-02-13 17:04:06,014 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench serve --port 8000
+2025-02-13 17:04:06,022 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench watch
+2025-02-13 17:04:06,022 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench schedule
+2025-02-13 17:04:06,026 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench worker
+2025-02-13 17:04:14,077 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench start
+2025-02-13 17:04:14,279 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench worker
+2025-02-13 17:04:14,285 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench schedule
+2025-02-13 17:04:14,298 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench serve --port 8000
+2025-02-13 17:04:14,311 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench watch
+2025-02-13 17:04:39,445 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench restart
+2025-02-13 17:04:39,558 WARNING restart failed: Couldn't find supervisorctl in PATH
+2025-02-13 17:04:47,934 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench stop
+2025-02-13 17:05:38,399 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench supervisorctl?
+2025-02-13 17:05:39,949 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench supervisorctl
+2025-02-13 17:05:57,057 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench start
+2025-02-13 17:05:57,204 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench worker
+2025-02-13 17:05:57,206 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench watch
+2025-02-13 17:05:57,207 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench schedule
+2025-02-13 17:05:57,212 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench serve --port 8000
+2025-02-13 17:06:34,944 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench start
+2025-02-13 17:06:35,093 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench schedule
+2025-02-13 17:06:35,093 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench worker
+2025-02-13 17:06:35,124 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench serve --port 8000
+2025-02-13 17:06:35,127 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench watch
+2025-02-13 17:19:25,409 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench set-config -g server_script_enabled true
+2025-02-13 17:23:40,939 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 17:30:39,310 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 17:31:48,491 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 17:32:19,863 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 17:36:39,649 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 18:50:54,258 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 18:51:12,121 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 18:53:38,108 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 18:54:16,587 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 19:08:07,285 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 19:08:42,720 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 19:42:59,299 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench new-app scheduling_system
+2025-02-13 19:42:59,314 LOG creating new app scheduling_system
+2025-02-13 19:43:42,377 LOG Installing scheduling_system
+2025-02-13 19:43:42,379 DEBUG cd /home/johnatas/nexforce && /home/johnatas/nexforce/env/bin/python -m pip install --quiet --upgrade -e /home/johnatas/nexforce/apps/scheduling_system 
+2025-02-13 19:43:46,712 DEBUG bench build --app scheduling_system
+2025-02-13 19:43:46,975 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench build --app scheduling_system
+2025-02-13 19:43:51,192 WARNING restart failed: Couldn't find supervisorctl in PATH
+2025-02-13 19:44:51,875 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost install-app scheduling_system
+2025-02-13 19:45:08,324 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost --list-apps
+2025-02-13 19:45:16,742 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost list-apps
+2025-02-13 19:48:47,243 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost console
+2025-02-13 19:59:14,876 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench stop
+2025-02-13 19:59:44,522 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench start
+2025-02-13 20:02:09,897 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench start
+2025-02-13 20:05:49,704 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench start
+2025-02-13 20:05:49,949 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench serve --port 8000
+2025-02-13 20:05:49,955 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench watch
+2025-02-13 20:05:49,959 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench worker
+2025-02-13 20:05:49,961 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench schedule
+2025-02-13 20:06:30,102 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench start
+2025-02-13 20:06:30,530 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench watch
+2025-02-13 20:06:30,542 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench worker
+2025-02-13 20:06:30,543 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench schedule
+2025-02-13 20:06:30,544 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench serve --port 8000
+2025-02-13 20:10:21,732 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost list-apps
+2025-02-13 20:20:47,492 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 20:24:38,243 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-13 20:27:54,882 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment

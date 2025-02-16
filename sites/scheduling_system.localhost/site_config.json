@@ -1,0 +1,15 @@
+{
+ "allow_tests": true,
+ "backup": {
+  "excludes": [
+   "Activity Log",
+   "Access Log",
+   "Error Log"
+  ]
+ },
+ "db_name": "_c62fba39365450d0",
+ "db_password": "CUuJVqBszmmWeYHi",
+ "db_type": "mariadb",
+ "db_user": "_c62fba39365450d0",
+ "encryption_key": "x9JYZS_vvN2bQ_EDfYtF43kZLQq4Tse_jfQ7A8P4NoM="
+}

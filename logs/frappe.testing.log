@@ -1,0 +1,47 @@
+2025-02-13 20:20:48,055 INFO frappe.testing started with: site=scheduling_system.localhost, doctype=Appointment, verbose=False, tests=(), force=False, profile=False, failfast=False, skip_before_tests=False, debug=False, selected_categories=[]
+2025-02-13 20:20:48,568 INFO frappe.testing Adding type validator in 'frappe' (up to level 0)...
+2025-02-13 20:20:48,965 INFO frappe.testing Adding type validator in 'scheduling_system' (up to level 0)...
+2025-02-13 20:20:48,974 INFO frappe.testing Starting tests for app: scheduling_system, category: unspecified-category
+2025-02-13 20:20:48,975 INFO frappe.testing scheduling_system.scheduling_system.doctype.appointment.test_appointment.TestAppointment
+2025-02-13 20:24:38,749 INFO frappe.testing started with: site=scheduling_system.localhost, doctype=Appointment, verbose=False, tests=(), force=False, profile=False, failfast=False, skip_before_tests=False, debug=False, selected_categories=[]
+2025-02-13 20:24:39,316 INFO frappe.testing Adding type validator in 'frappe' (up to level 0)...
+2025-02-13 20:24:39,524 INFO frappe.testing Adding type validator in 'scheduling_system' (up to level 0)...
+2025-02-13 20:24:39,534 INFO frappe.testing Starting tests for app: scheduling_system, category: unit
+2025-02-13 20:24:39,535 INFO frappe.testing scheduling_system.scheduling_system.doctype.appointment.test_appointment.UnitTestAppointment
+2025-02-13 20:24:42,700 INFO frappe.testing Running "before_tests" hooks for integration tests on app: scheduling_system
+2025-02-13 20:24:42,700 INFO frappe.testing Starting tests for app: scheduling_system, category: integration
+2025-02-13 20:24:43,877 INFO frappe.testing  Synced  + Role                           via Appointment
+2025-02-13 20:24:44,506 INFO frappe.testing          > Role (4)                       into cls.globalTestRecords, only
+2025-02-13 20:24:44,508 INFO frappe.testing  Synced  + Report                         via Appointment
+2025-02-13 20:24:44,508 INFO frappe.testing          > Report (1)                     into cls.globalTestRecords, only
+2025-02-13 20:24:44,510 INFO frappe.testing  Synced  + Email Domain                   via Appointment
+2025-02-13 20:24:44,510 INFO frappe.testing          > Email Domain (2)               into cls.globalTestRecords, only
+2025-02-13 20:24:44,510 INFO frappe.testing  Synced  + Connected App                  via Appointment
+2025-02-13 20:24:44,511 INFO frappe.testing          > Connected App (1)              into cls.globalTestRecords, only
+2025-02-13 20:24:44,511 INFO frappe.testing  Synced  + Email Account                  via Appointment
+2025-02-13 20:24:44,511 INFO frappe.testing          > Email Account (2)              into cls.globalTestRecords, only
+2025-02-13 20:24:44,511 INFO frappe.testing  Synced  + User                           via Appointment
+2025-02-13 20:24:44,512 INFO frappe.testing          > User (9)                       into cls.globalTestRecords, only
+2025-02-13 20:24:44,513 INFO frappe.testing scheduling_system.scheduling_system.doctype.appointment.test_appointment.IntegrationTestAppointment
+2025-02-13 20:24:44,513 INFO frappe.testing records created: Appointment (0), User (9), Email Account (2), Connected App (1), Email Domain (2), User Type (0), Workspace (0), Custom HTML Block (0), Country (0), Kanban Board (0), Dashboard Chart (0), Dashboard Chart Source (0), Number Card (0), Currency (0), Report (1), Letter Head (0), DocType (0), Email Template (0), Module Def (0), Package (0), Gender (0), Module Profile (0), Role Profile (0), Role (4), Domain (0), Language (0)
+2025-02-13 20:27:55,370 INFO frappe.testing started with: site=scheduling_system.localhost, doctype=Appointment, verbose=False, tests=(), force=False, profile=False, failfast=False, skip_before_tests=False, debug=False, selected_categories=[]
+2025-02-13 20:27:55,868 INFO frappe.testing Adding type validator in 'frappe' (up to level 0)...
+2025-02-13 20:27:56,088 INFO frappe.testing Adding type validator in 'scheduling_system' (up to level 0)...
+2025-02-13 20:27:56,096 INFO frappe.testing Starting tests for app: scheduling_system, category: unit
+2025-02-13 20:27:56,097 INFO frappe.testing scheduling_system.scheduling_system.doctype.appointment.test_appointment.UnitTestAppointment
+2025-02-13 20:27:59,188 INFO frappe.testing Running "before_tests" hooks for integration tests on app: scheduling_system
+2025-02-13 20:27:59,188 INFO frappe.testing Starting tests for app: scheduling_system, category: integration
+2025-02-13 20:28:00,435 INFO frappe.testing  Synced  + Role                           via Appointment
+2025-02-13 20:28:01,164 INFO frappe.testing          > Role (4)                       into cls.globalTestRecords, only
+2025-02-13 20:28:01,166 INFO frappe.testing  Synced  + Report                         via Appointment
+2025-02-13 20:28:01,166 INFO frappe.testing          > Report (1)                     into cls.globalTestRecords, only
+2025-02-13 20:28:01,168 INFO frappe.testing  Synced  + Email Domain                   via Appointment
+2025-02-13 20:28:01,169 INFO frappe.testing          > Email Domain (2)               into cls.globalTestRecords, only
+2025-02-13 20:28:01,169 INFO frappe.testing  Synced  + Connected App                  via Appointment
+2025-02-13 20:28:01,169 INFO frappe.testing          > Connected App (1)              into cls.globalTestRecords, only
+2025-02-13 20:28:01,170 INFO frappe.testing  Synced  + Email Account                  via Appointment
+2025-02-13 20:28:01,170 INFO frappe.testing          > Email Account (2)              into cls.globalTestRecords, only
+2025-02-13 20:28:01,170 INFO frappe.testing  Synced  + User                           via Appointment
+2025-02-13 20:28:01,170 INFO frappe.testing          > User (9)                       into cls.globalTestRecords, only
+2025-02-13 20:28:01,172 INFO frappe.testing scheduling_system.scheduling_system.doctype.appointment.test_appointment.IntegrationTestAppointment
+2025-02-13 20:28:01,172 INFO frappe.testing records created: Appointment (0), User (9), Email Account (2), Connected App (1), Email Domain (2), User Type (0), Workspace (0), Custom HTML Block (0), Country (0), Kanban Board (0), Dashboard Chart (0), Dashboard Chart Source (0), Number Card (0), Currency (0), Report (1), Letter Head (0), DocType (0), Email Template (0), Module Def (0), Package (0), Gender (0), Module Profile (0), Role Profile (0), Role (4), Domain (0), Language (0)

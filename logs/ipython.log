@@ -1,0 +1,8 @@
+2025-02-12 21:09:53,572 INFO ipython === bench console session ===
+2025-02-12 21:09:53,572 INFO ipython frappe.sendmail(
+    recipients=["seu@email.com"],
+    subject="Teste de E-mail",
+    message="Este é um teste de envio de e-mail no Frappe."
+)
+2025-02-12 21:09:53,573 INFO ipython exigt
+2025-02-12 21:09:53,573 INFO ipython === session end ===
