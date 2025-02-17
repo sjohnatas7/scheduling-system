@@ -271,3 +271,17 @@
 2025-02-13 20:20:47,492 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
 2025-02-13 20:24:38,243 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
 2025-02-13 20:27:54,882 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-16 20:52:59,760 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench start
+2025-02-16 20:53:00,203 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench watch
+2025-02-16 20:53:00,214 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench worker
+2025-02-16 20:53:00,218 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench serve --port 8000
+2025-02-16 20:53:00,229 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench schedule
+2025-02-16 20:53:25,758 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench start
+2025-02-16 20:53:26,204 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench schedule
+2025-02-16 20:53:26,209 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench watch
+2025-02-16 20:53:26,233 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench worker
+2025-02-16 20:53:26,244 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench serve --port 8000
+2025-02-16 20:57:33,006 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system run-test --doctype Appointment
+2025-02-16 20:57:38,508 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system run-tests --doctype Appointment
+2025-02-16 20:57:48,844 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment
+2025-02-16 21:08:22,265 INFO /home/johnatas/.cache/uv/archive-v0/6Yw_h_veGAzNifoIQcO54/bin/bench --site scheduling_system.localhost run-tests --doctype Appointment

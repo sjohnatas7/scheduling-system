@@ -1,4 +1,4 @@
-# Scheduling System - NX FullStack Case Study
+# Scheduling System - Nexforce FullStack Case Study
 A scheduling system built with Frappe Framework for appointment management and calendar integration.
 
 ## Overview

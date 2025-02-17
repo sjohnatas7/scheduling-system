@@ -22,3 +22,6 @@ Form Dict: {'doc': '{"docstatus":0,"doctype":"Appointment","name":"new-appointme
 2025-02-13 20:28:22,263 ERROR frappe New Exception collected in error log
 Site: scheduling_system.localhost
 Form Dict: {'doc': '{"docstatus":0,"doctype":"Appointment","name":"new-appointment-guubjppxdz","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Scheduled","__run_link_triggers":false,"client_name":"asd","start_date":"2025-02-14 17:14:26","end_date":"2025-02-14 17:54:52","duration":"0:27:26","seller":"Administrator","creation":"","modified_by":"Administrator","modified":"","lft":null,"rgt":null,"idx":null}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-02-16 21:09:25,272 ERROR frappe New Exception collected in error log
+Site: scheduling_system.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Appointment","name":"new-appointment-amoeommnez","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Scheduled","__run_link_triggers":false,"client_name":"ASJDfgka","start_date":"2025-02-26 21:04:21","end_date":"2025-02-27 04:09:02","duration":"07:04:31","description":null,"seller":"Administrator","creation":"","modified_by":"Administrator","modified":"","lft":null,"rgt":null,"idx":null}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
